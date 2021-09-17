@@ -1,0 +1,80 @@
+format_version: v1.0
+type: UniqueComponent
+attributes: {id: adc}
+children:
+- type: Symbols
+  children:
+  - type: Combo
+    attributes: {id: ADC_CONV_TRIGGER}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: SW Trigger}
+  - type: KeyValueSet
+    attributes: {id: ADC_CTRLB_PRESCALER}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '4'}
+  - type: KeyValueSet
+    attributes: {id: ADC_CTRLB_RESSEL}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '2'}
+  - type: Boolean
+    attributes: {id: ADC_EVCTRL_RESRDYEO}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'false'}
+  - type: KeyValueSet
+    attributes: {id: ADC_INPUTCTRL_GAIN}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '0'}
+  - type: Integer
+    attributes: {id: ADC_INPUTCTRL_INPUTSCAN}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '0'}
+  - type: KeyValueSet
+    attributes: {id: ADC_INPUTCTRL_MUXPOS}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '7'}
+  - type: Boolean
+    attributes: {id: ADC_INTENSET_RESRDY}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'false'}
+  - type: Integer
+    attributes: {id: ADC_SAMPCTRL_SAMPLEN}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '32'}
+  - type: Comment
+    attributes: {id: ADC_SAMPCTRL_SAMPLEN_TIME}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: text}
+        children:
+        - {type: Value, value: '**** Conversion Time is 56.0 uS ****'}
+- type: ElementPosition
+  attributes: {x: '311', y: '61', id: adc}

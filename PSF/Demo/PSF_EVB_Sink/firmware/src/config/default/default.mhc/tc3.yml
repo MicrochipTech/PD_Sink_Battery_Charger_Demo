@@ -1,0 +1,22 @@
+format_version: v1.0
+type: UniqueComponent
+attributes: {id: tc3}
+children:
+- type: Symbols
+  children:
+  - type: Integer
+    attributes: {id: TC_FREQUENCY}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: tc3, value: '48000000'}
+  - type: Long
+    attributes: {id: TC_TIMER_PERIOD}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: tc3, value: '48000'}
+- type: ElementPosition
+  attributes: {x: '30', y: '200', id: tc3}

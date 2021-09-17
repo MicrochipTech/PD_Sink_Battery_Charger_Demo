@@ -1,0 +1,99 @@
+format_version: v1.0
+type: UniqueComponent
+attributes: {id: tcc0}
+children:
+- type: Symbols
+  children:
+  - type: String
+    attributes: {id: INTR_PWM_FAULT}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: tcc0, value: TCC0_OTHER_IRQn}
+  - type: String
+    attributes: {id: PWM_CALLBACK_API}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: tcc0, value: TCC0_PWMCallbackRegister}
+  - type: String
+    attributes: {id: PWM_GET_PERIOD_API}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: tcc0, value: TCC0_PWM24bitPeriodGet}
+  - type: String
+    attributes: {id: PWM_OUTPUT_DISABLE_API}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: tcc0, value: TCC0_PWMPatternSet}
+  - type: String
+    attributes: {id: PWM_OUTPUT_ENABLE_API}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: tcc0, value: TCC0_PWMPatternSet}
+  - type: Hex
+    attributes: {id: PWM_PATTERN_MASK}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: tcc0, value: '119'}
+  - type: Hex
+    attributes: {id: PWM_PH_MASK}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: tcc0, value: '7'}
+  - type: String
+    attributes: {id: PWM_PH_U}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: tcc0, value: TCC0CHANNEL0}
+  - type: String
+    attributes: {id: PWM_PH_V}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: tcc0, value: TCC0CHANNEL1}
+  - type: String
+    attributes: {id: PWM_PH_W}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: tcc0, value: TCC0CHANNEL2}
+  - type: String
+    attributes: {id: PWM_SET_DUTY_API}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: tcc0, value: TCC0_PWM24bitDutySet}
+  - type: String
+    attributes: {id: PWM_START_API}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: tcc0, value: TCC0_PWMStart}
+  - type: String
+    attributes: {id: PWM_STOP_API}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: tcc0, value: TCC0_PWMStop}
+- type: ElementPosition
+  attributes: {x: '178', y: '87', id: tcc0}
