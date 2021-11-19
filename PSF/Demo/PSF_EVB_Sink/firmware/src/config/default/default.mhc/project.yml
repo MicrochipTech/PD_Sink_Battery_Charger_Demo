@@ -55,13 +55,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: AFF6920A1EDF2DC07C3D5A186ACA713F
-- generatedChecksum: 14477118692B35875C6FA95B5B4DEE37
+- generatedChecksum: 1DA8D05C8419AB389797B62F6C8093FE
   logicalPath: config/default/peripheral/eic
   name: plib_eic.c
   physicalPath: peripheral/eic
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 14477118692B35875C6FA95B5B4DEE37
+  userChecksum: 1DA8D05C8419AB389797B62F6C8093FE
 - generatedChecksum: C99E6D9B9BA371EA749B7DC16BC2C209
   logicalPath: config/default/peripheral/evsys
   name: plib_evsys.c
@@ -83,13 +83,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 12BB5180FB5A5EF3F5A1310030E4E6C5
-- generatedChecksum: A0F534F5F73A438D6C98561A23D61FB2
+- generatedChecksum: 46E2EA59B7A1D97EAAE11227D3D010DB
   logicalPath: config/default/peripheral/port
   name: plib_port.c
   physicalPath: peripheral/port
   security: NON_SECURE
   type: SOURCE
-  userChecksum: A0F534F5F73A438D6C98561A23D61FB2
+  userChecksum: 46E2EA59B7A1D97EAAE11227D3D010DB
 - generatedChecksum: DB14E21CECE3F60BD1819994C3BC8521
   logicalPath: config/default/peripheral/sercom/spi_master
   name: plib_sercom1_spi_master.c
@@ -385,21 +385,21 @@ files:
   type: HEADER
   userChecksum: 7296DA017FF9C40DCC08191D6999B77B
 - generatedChecksum: F0AD88762263B7CB89B02AB4F5876059
-  logicalPath: osal
+  logicalPath: /osal
   name: osal.h
   physicalPath: osal
   security: NON_SECURE
   type: HEADER
   userChecksum: F0AD88762263B7CB89B02AB4F5876059
 - generatedChecksum: 0AC88C49E4585B606FD5AC6804F0C340
-  logicalPath: osal
+  logicalPath: /osal
   name: osal_definitions.h
   physicalPath: osal
   security: NON_SECURE
   type: HEADER
   userChecksum: 0AC88C49E4585B606FD5AC6804F0C340
 - generatedChecksum: 63FBE37825657165B9EA584BF05DBA43
-  logicalPath: osal
+  logicalPath: /osal
   name: osal_impl_basic.h
   physicalPath: osal
   security: NON_SECURE
@@ -433,13 +433,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: C591D09F115E12D00921D14939E3900D
-- generatedChecksum: 30CB0881C0EEA7B5FC2C7BFF00BC56F7
+- generatedChecksum: F0EE0BE4414C3BF527E98BABCBE058CB
   logicalPath: config/default/peripheral/eic
   name: plib_eic.h
   physicalPath: peripheral/eic
   security: NON_SECURE
   type: HEADER
-  userChecksum: 30CB0881C0EEA7B5FC2C7BFF00BC56F7
+  userChecksum: F0EE0BE4414C3BF527E98BABCBE058CB
 - generatedChecksum: CCAEF942C66AF995876DFD85CEFF611F
   logicalPath: config/default/peripheral/evsys
   name: plib_evsys.h

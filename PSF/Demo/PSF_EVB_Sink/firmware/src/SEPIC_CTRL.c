@@ -566,7 +566,11 @@ uint16_t readBattV() {
     //    uint16_t voltage = (uint16_t) (adcresult * VREF / (1023 * VSENSEGAIN)*1000) - leadresistance * getChgI();
     uint16_t voltage = (uint16_t) (adcresult * VREF / (1023 * VSENSEGAIN)*1000) - 75;
     //printf("Battery voltage: %d mV \r\n", voltage);
-
+    
+    if(voltage > NUMCELLS*CELLVMAX*1.1){
+        voltage = 0;
+    }
+    
     return voltage;
 }
 

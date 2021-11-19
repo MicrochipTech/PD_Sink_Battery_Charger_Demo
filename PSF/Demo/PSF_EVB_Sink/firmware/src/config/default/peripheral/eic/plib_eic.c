@@ -83,7 +83,7 @@ void EIC_Initialize(void)
                               EIC_CONFIG_SENSE2_FALL | EIC_CONFIG_FILTEN2_Msk |
                               EIC_CONFIG_SENSE3_NONE  |
                               EIC_CONFIG_SENSE4_FALL | EIC_CONFIG_FILTEN4_Msk |
-                              EIC_CONFIG_SENSE5_NONE  |
+                              EIC_CONFIG_SENSE5_FALL | EIC_CONFIG_FILTEN5_Msk |
                               EIC_CONFIG_SENSE6_NONE  |
                               EIC_CONFIG_SENSE7_NONE ;
 
@@ -101,7 +101,7 @@ void EIC_Initialize(void)
     EIC_REGS->EIC_WAKEUP = 0x1;
 
     /* External Interrupt enable*/
-    EIC_REGS->EIC_INTENSET = 0x14;
+    EIC_REGS->EIC_INTENSET = 0x34;
 
     /* Callbacks for enabled interrupts */
     eicCallbackObject[0].eicPinNo = EIC_PIN_0;
@@ -109,7 +109,7 @@ void EIC_Initialize(void)
     eicCallbackObject[2].eicPinNo = EIC_PIN_2;
     eicCallbackObject[3].eicPinNo = EIC_PIN_MAX;
     eicCallbackObject[4].eicPinNo = EIC_PIN_4;
-    eicCallbackObject[5].eicPinNo = EIC_PIN_MAX;
+    eicCallbackObject[5].eicPinNo = EIC_PIN_5;
     eicCallbackObject[6].eicPinNo = EIC_PIN_MAX;
     eicCallbackObject[7].eicPinNo = EIC_PIN_MAX;
     eicCallbackObject[8].eicPinNo = EIC_PIN_MAX;
