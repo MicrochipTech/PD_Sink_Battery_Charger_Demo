@@ -350,7 +350,7 @@ void setIbatRef() {
     lastCurrent = chgI;
 
     //IbatRefPWM = PERVAL*.5;
-    printf("pwm value: %d\r\n", IbatRefPWM);
+//    printf("pwm value: %d\r\n", IbatRefPWM);
     TCC2_REGS->TCC_CC[1] = IbatRefPWM;
 }
 
