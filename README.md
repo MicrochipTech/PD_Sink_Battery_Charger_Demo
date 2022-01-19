@@ -1,5 +1,5 @@
 # PD_Sink_Battery_Charger_Demo
-Demo project for the PD Sink battery charger board
+Demo project for the USB PD Sink battery charger demo board
 ![PD Board User Guide-01](https://user-images.githubusercontent.com/67211200/145612217-b265ac40-cc9e-4fac-8133-3057d38e8401.png)
 ![PD Board User Guide-02](https://user-images.githubusercontent.com/67211200/145427398-b598f0d3-da06-439f-b558-f1cfe3cb0a40.png)
 ![PD Board User Guide-03](https://user-images.githubusercontent.com/67211200/145427404-e0c72293-d980-4945-b2d7-431b6c30fd09.png)
